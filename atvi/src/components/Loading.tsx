@@ -1,4 +1,3 @@
-import trevo from "../assets/trevo-lotofacil.png"
 import "../styles/Lotofacil.css";
 import { Contexto } from "../contexts";
 import { useContext, useEffect } from "react";
@@ -6,7 +5,7 @@ import "../styles/Loading.css"
 import { GetLoteria } from "../services/Jogo";
 
 function Loading() {
-    const { lotofacil, megasena, loaded,setLotofacil, setMegasena, setLoaded} = useContext(Contexto)
+    const { loaded,setLotofacil, setMegasena, setLoaded} = useContext(Contexto)
     useEffect(()=>{
         setTimeout(()=>{
             GetLoteria().then((r)=>{
@@ -21,9 +20,9 @@ function Loading() {
         <>
             <div className="loading" style={{ display: loaded ? "none" : "" }}>
                 <div className="loading">
-                    <h1>
-                        Carregando..
-                    </h1>
+                    <h2>
+                        Carregando ...
+                    </h2>
                 </div>
                 <div className="spinner">
                 </div>

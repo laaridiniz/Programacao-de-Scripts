@@ -19,11 +19,6 @@ function Loading() {
     return (
         <>
             <div className="loading" style={{ display: loaded ? "none" : "" }}>
-                <div className="loading">
-                    <h2>
-                        Carregando ...
-                    </h2>
-                </div>
                 <div className="spinner">
                 </div>
             </div>

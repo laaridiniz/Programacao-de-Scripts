@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+<h1 align="center"> Atividade I </h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Desenvolvimento de um aplicativo web que mostre os dados do último sorteio da Mega-sena e da Lotofácil.
 
-## Available Scripts
+Objetivos:
 
-In the project directory, you can run:
+- Criar aplicações React TS;
+- Requisições HTTP;
+- Context e hooks;
+- CSS.
 
-### `npm start`
+Requisitos Funcionais:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- A aplicação deverá consumir os resultados disponibilizados na API: https://servicebus2.caixa.gov.br/portaldeloterias/api/home/ultimos-resultados;
+- A página deverá exibir o último resultado da Mega-sena e Lotofácil;
+- Os resultados devem ser carregados ao inicializar a aplicação;
+- Enquanto o resultado não estiver disponível deverá ser exibida uma mensagem de carregando centralizada na tela na vertical e horizontal.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Requisitos não funcionais:
 
-### `npm test`
+- A aplicação deverá ser codificada usando React TypeScript;
+- O projeto deverá ter os seguintes pacotes: assets (arquivo de imagens PNG), components (pacote com os componentes utilizados na página), pages (terá apenas uma página), contexts (contexto e Provider), hooks (função que retorna os recursos do Contexto), services (faz a conexão com a API de Loterias da
+Caixa) e types (interfaces);
+- Cada item da página deverá ser um componente e os estilos CSS devem estar num arquivo CSS vinculado ao componente;
+- A aplicação deverá rodar na porta 3001;
+- O ícone da página deverá ser https://loterias.caixa.gov.br/Style%20Library/images/favicon.ico;
+- Gerar uma versão build da aplicação e subir ela na porta 3002;
+- Utilize a fonte Roboto em todos os textos. Dica: adicione o pacote @fontsource/roboto (https://www.npmjs.com/package/@fontsource/roboto) e importe esse pacote no arquivo src/index.tsx;
+- Utilize axios para processar as requisições HTTP.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Resultados
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Video](https://clipchamp.com/watch/htHW386XoOK)

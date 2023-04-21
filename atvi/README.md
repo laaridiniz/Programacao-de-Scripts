@@ -1,4 +1,4 @@
-<h1 align="center"> Atividade I </h2>
+<h1 align="center"> 💻 Atividade I </h2>
 
 > Desenvolvimento de um aplicativo web que mostre os dados do último sorteio da Mega-sena e da Lotofácil.
 
@@ -27,6 +27,27 @@ Caixa) e types (interfaces);
 - Gerar uma versão build da aplicação e subir ela na porta 3002;
 - Utilize a fonte Roboto em todos os textos. Dica: adicione o pacote @fontsource/roboto (https://www.npmjs.com/package/@fontsource/roboto) e importe esse pacote no arquivo src/index.tsx;
 - Utilize axios para processar as requisições HTTP.
+
+## Execução
+
+Para executar a aplicação desenvolvida, siga as instruções abaixo:
+
+1) Clone este repositório
+
+```$ git clone https://github.com/laaridiniz/Programacao-de-Scripts.git```
+
+2) Acesse a pasta atvi
+
+```$ cd atvi```
+
+2) Instale as dependências
+
+```$ npm install```
+
+3) Execute a aplicação
+
+```$ npm start```
+
 
 ## Resultados
 

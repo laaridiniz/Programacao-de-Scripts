@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    color:black;
+    padding:30px
+}
+.col-1{
+    flex:0.5;
+    padding:10
+}
+.col-2{
+    flex:1;
+    padding: 0px;
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    width: 50%;
+    margin-right: 20px;
+}
+.image-header{
+    width: 2em;
+    margin-right: 1em;
+}
+.logo-header {
+    display: flex;
+    padding-top: 6px;
+    font-size: 1.7em;
+    color:#930989;
+}
+.logo-header h3{
+    padding:0;
+     margin:0;
+}
+.description{
+    padding: 2em 2em 0em 3em;
+    color:gray
+}
+.value{
+    color:#930989;
+    padding: 0em 2em 2em 3em;
+}
+ul li{
+    display: inline-block;
+    color:#930989;
+    font-size:1.8rem;
+    padding: 20px;
+    border-bottom: solid 1px #d5d9df;
+    width:13%;
+}
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    width: 75%;
+}
+.winnersNumber{
+    color:rgb(0, 92, 169);
+}
+.gameDescription{
+    color:grey;
+}

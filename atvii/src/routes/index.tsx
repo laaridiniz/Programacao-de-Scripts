@@ -6,7 +6,7 @@ function Rotas(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/megasena" element={<Mega/>}/>
+                <Route index element={<Mega/>}/> 
                 <Route path="/lotofacil" element={<Loto/>}/>
             </Routes>
         </BrowserRouter>

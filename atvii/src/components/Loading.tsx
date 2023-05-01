@@ -5,11 +5,12 @@ import "../styles/Loading.css"
 import { GetLoteria } from "../services/Jogo";
 
 function Loading() {
-    const { loaded,setLotofacil, setMegasena, setLoaded} = useContext(Contexto)
+    const { loaded, setQuina, setLotofacil, setMegasena, setLoaded} = useContext(Contexto)
     useEffect(()=>{
         setTimeout(()=>{
             GetLoteria().then((r)=>{
                 console.log(r)
+                setQuina(r.quina)
                 setLotofacil(r.lotofacil)
                 setMegasena(r.megasena)
                 setLoaded(true)

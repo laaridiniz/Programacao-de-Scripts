@@ -16,11 +16,10 @@ export interface Loteria {
 export interface Props {
     megasena: Loteria;
     lotofacil: Loteria;
+    quina: Loteria;
     loaded:boolean
     setMegasena: Function;
     setLotofacil: Function;
+    setQuina: Function;
     setLoaded : Function;
 }
-
-
-

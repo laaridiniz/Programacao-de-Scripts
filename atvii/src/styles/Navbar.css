@@ -1,0 +1,29 @@
+.opcoes {
+    display: flex !important;
+    align-items: flex-start;
+}
+
+.nav-link {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.clicked {
+    color: #aaa !important;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.quina {
+    color: #260085;
+}
+
+.loto {
+    color: #930089;
+}
+
+.mega {
+    color: #209869;
+}

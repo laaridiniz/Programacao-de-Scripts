@@ -49,4 +49,8 @@ Para executar a aplicação desenvolvida, siga as instruções abaixo:
 
 ## Resultados
 
-[Em construção]
+https://user-images.githubusercontent.com/86115352/235468994-7bbfb700-7b1c-40a5-bbca-96cb956b7a86.mp4
+
+
+
+

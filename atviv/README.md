@@ -9,7 +9,7 @@ Objetivos:
 
 Requisitos Funcionais:
 
-- Descritos na (documentação)[].
+- Descritos na [documentação](https://github.com/laaridiniz/Programacao-de-Scripts/blob/main/atviv/Atividade%20de%20avalia%C3%A7%C3%A3o%204%20-%20TypeORM.pdf).
 
 Requisitos não funcionais:
 

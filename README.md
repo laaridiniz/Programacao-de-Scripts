@@ -4,6 +4,7 @@
 
 - [x] [Atividade 1](https://github.com/laaridiniz/Programacao-de-Scripts/tree/main/atvi)
 - [x] [Atividade 2](https://github.com/laaridiniz/Programacao-de-Scripts/tree/main/atvii)
-- [ ] Atividade 3
+- [x] [Atividade 3](https://github.com/laaridiniz/Programacao-de-Scripts/tree/main/atviii)
+- [ ] [Atividade 4](https://github.com/laaridiniz/Programacao-de-Scripts/tree/main/atviv)
 
 Prof. Arley Ferreira de Souza

@@ -34,7 +34,7 @@ Para executar a aplicação desenvolvida, siga as instruções abaixo:
 
 ```$ git clone https://github.com/laaridiniz/Programacao-de-Scripts.git```
 
-2) Acesse a pasta atvi
+2) Acesse a pasta atvii
 
 ```$ cd atvii```
 

@@ -5,8 +5,8 @@ const routes = Router();
 
 routes.get('/', MatchController.list);
 routes.get('/:id', MatchController.listById);
-routes.post('/', MatchController.create);
-routes.put('/', MatchController.update);
+routes.post('/', MatchController.postMatch);
+routes.put('/', MatchController.putMatch);
 routes.delete('/', MatchController.delete);
 
 export default routes;

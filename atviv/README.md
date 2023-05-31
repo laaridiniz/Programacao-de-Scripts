@@ -21,7 +21,29 @@ Requisitos não funcionais:
 
 ## Execução
 
-[Em breve]
+Para executar a aplicação desenvolvida, siga as instruções abaixo:
+
+1) Clone este repositório
+
+```$ git clone https://github.com/laaridiniz/Programacao-de-Scripts.git```
+
+2) Acesse a pasta src, dentro de atviv
+
+```$ cd atviv/src```
+
+2) Instale as dependências
+
+```$ npm install```
+
+3) Gere e execute o banco localmente com os respectivos comandos
+
+```$ npm run migration:generate```
+
+```$ npm run migration:run```
+
+5) Inicie o servidor
+
+```$ npm run dev```
 
 ## Resultados
 
